@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c664b15-38c6-49c5-b6a8-d0615f166bd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blizzApi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/CharacterTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/UserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/.env.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Character.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Character.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/CharacterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/CharacterTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Entity/Character.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3416">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="392">
+              <caret line="209" column="5" lean-forward="true" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/unit/CharacterTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="754">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#118#143#0#PHP" expanded="true" />
               </folding>
@@ -64,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/tests/controller/DefaultControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
+              <caret line="19" column="93" lean-forward="true" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -102,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="84">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#12#26#0#Twig" expanded="true" />
               </folding>
@@ -138,8 +127,8 @@
         <option value="$PROJECT_DIR$/templates/default/index.html.twig" />
         <option value="$PROJECT_DIR$/tests/controller/DefaultControllerTest.php" />
         <option value="$PROJECT_DIR$/blizzApi.md" />
-        <option value="$PROJECT_DIR$/src/Entity/Character.php" />
         <option value="$PROJECT_DIR$/tests/unit/CharacterTest.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Character.php" />
       </list>
     </option>
   </component>
@@ -205,7 +194,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="434" />
     <option name="y" value="-18" />
     <option name="width" value="1096" />
@@ -322,7 +311,7 @@
       <workItem from="1541751168188" duration="871000" />
       <workItem from="1542984265971" duration="3660000" />
       <workItem from="1543221170956" duration="4070000" />
-      <workItem from="1543587833856" duration="186000" />
+      <workItem from="1543587833856" duration="1081000" />
     </task>
     <servers />
   </component>
@@ -359,7 +348,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17536000" />
+    <option name="totallyTimeSpent" value="18431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -445,20 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Character.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3416">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/controller/DefaultControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -473,20 +448,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="84">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+    <entry file="file://$PROJECT_DIR$/tests/controller/DefaultControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="392">
+          <caret line="19" column="93" lean-forward="true" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -502,11 +484,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/CharacterTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="754">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#118#143#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Character.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="209" column="5" lean-forward="true" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
         </state>
       </provider>
     </entry>

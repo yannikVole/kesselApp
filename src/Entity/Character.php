@@ -31,6 +31,9 @@ class Character
      */
     private $user;
 
+
+    private $URL_BASE = 'http://render-eu.worldofwarcraft.com/character/';
+
     public function getId(): ?int
     {
         return $this->id;
@@ -213,7 +216,8 @@ class Character
 
     public function setThumbnail(string $thumbnail): self
     {
-        $this->thumbnail = $thumbnail;
+
+        $this->thumbnail = $this->URL_BASE.$thumbnail;
 
         return $this;
     }
